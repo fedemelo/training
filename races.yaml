@@ -1,0 +1,43 @@
+races:
+  - name: 'IRONMAN 70.3 Barranquilla Relay'
+    date: 2026-06-07
+    distance:
+      swim_km: 1.9
+      bike_km: 0
+      run_km: 21.1
+    characteristics:
+      swim: 'Ocean'
+      bike: null
+      run: 'Flat'
+    high_air_temp_c: 34
+    low_air_temp_c: 25
+    avg_water_temp_c: 27
+    goal_type: finish
+  - name: '5150 Cartagena'
+    date: 2026-09-06
+    distance:
+      swim_km: 1.5
+      bike_km: 40
+      run_km: 10
+    characteristics:
+      swim: 'Bay'
+      bike: 'Flat'
+      run: 'Flat'
+    high_air_temp_c: 33
+    low_air_temp_c: 26
+    avg_water_temp_c: 30
+    goal_type: finish
+  - name: 'IRONMAN 70.3 Cartagena'
+    date: 2026-11-29
+    distance:
+      swim_km: 1.9
+      bike_km: 90
+      run_km: 21.3
+    characteristics:
+      swim: 'Bay'
+      bike: 'Flat'
+      run: 'Flat'
+    high_air_temp_c: 31
+    low_air_temp_c: 25
+    avg_water_temp_c: 29
+    goal_type: finish
