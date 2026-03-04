@@ -1,0 +1,37 @@
+notes: More time is possible if needed. Wednesday is swim-only.
+
+swimming:
+  - day: wednesday
+    time: afternoon
+    duration_h: 1
+  - day: friday
+    time: afternoon
+    duration_h_range: [1, 2]
+  - day: [saturday, sunday]
+    time: any
+    duration_h_range: [1, 2]
+    conditional: if_needed
+
+running:
+  - day: [saturday, sunday]
+    time: morning
+    duration_h: "4+"
+  - day: [saturday, sunday]
+    time: evening
+    max_duration_h: 3
+    conditional: if_needed
+  - day: [monday, tuesday, thursday, friday]
+    time: afternoon
+    max_duration_h: 3
+
+cycling:
+  - day: [saturday, sunday]
+    time: morning
+    duration_h: "4+"
+  - day: [saturday, sunday]
+    time: evening
+    max_duration_h: 3
+    conditional: if_needed
+  - day: [monday, tuesday, thursday, friday]
+    time: afternoon
+    max_duration_h: 3
