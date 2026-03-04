@@ -4,10 +4,10 @@ venv:
 	source venv/bin/activate
 
 ingest:
-	$(PYTHON) -m src.ingest
+	$(PYTHON) src/backend/scripts/ingest.py
 
 prompt:
-	$(PYTHON) -m src.prompt
+	$(PYTHON) src/backend/scripts/prompt.py
 
 format:
 	venv/bin/isort . && venv/bin/black .
