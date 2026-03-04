@@ -1,0 +1,15 @@
+pace_zones_per_100m:
+  easy_aerobic:
+    min: "1:32"
+    max: "1:38"
+  css:
+    min: "1:25"
+    max: "1:27"
+  vo2_intervals:
+    min: "1:18"
+    max: "1:22"
+  sprint:
+    min: "1:10"
+    max: "1:15"
+
+css_per_100m: null                  # single CSS value if known (e.g. from 400m TT)
