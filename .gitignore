@@ -2,3 +2,9 @@
 
 plans/
 data/raw-exports/
+venv/
+
+.env
+
+__pycache__/
+*. pyc
