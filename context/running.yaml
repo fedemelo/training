@@ -1,0 +1,35 @@
+fitness_snapshot_period: last_12_weeks
+
+vo2max: 53
+lactate_threshold_hr: 173
+lactate_threshold_pace_min_per_km: "4:57"
+
+hr_zones_bpm:
+  z1_recovery:
+    min: null
+    max: 137
+  z2_endurance:
+    min: 138
+    max: 156
+  z3_tempo:
+    min: 157
+    max: 164
+  z4_threshold:
+    min: 165
+    max: 176
+  z5_max:
+    min: 177
+    max: 196
+
+pace_zones_min_per_km:
+  endurance:
+    min: "5:58"
+    max: "7:04"
+  threshold:
+    min: "4:51"
+    max: "5:22"
+  speed:
+    min: "4:22"
+    max: "4:50"
+  sprint:
+    faster_than: "4:22"
