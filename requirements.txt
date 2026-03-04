@@ -1,0 +1,9 @@
+fastapi
+sqlmodel
+pydantic-settings
+fitdecode
+polars
+psycopg[binary]
+uvicorn[standard]
+python-dotenv
+more-itertools
