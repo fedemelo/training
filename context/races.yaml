@@ -1,9 +1,11 @@
 races:
   - name: IRONMAN 70.3 Barranquilla Relay
     date: 2026-06-07
+    format: relay
+    legs_assigned: [swim, run]
     distance_km:
       swim: 1.9
-      bike: 0
+      bike: null
       run: 21.1
     terrain:
       swim: ocean
